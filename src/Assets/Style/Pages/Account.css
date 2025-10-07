@@ -1,0 +1,165 @@
+.draweraccount {
+    border-radius: 25px 25px 0 0 !important;
+    background: var(--gris-clair) !important;
+}
+
+.ant-drawer-content-wrapper {
+    border-top-left-radius: 25px !important;
+    border-top-right-radius: 25px !important;
+    overflow: hidden;
+}
+
+
+.draweraccount .ant-drawer-close {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.account-page-header {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px 5px 0px;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+}
+
+.account-page-header div {
+    width: 100%;
+    margin: auto;
+}
+
+.account-user-info {
+    display: flex;
+    align-items: center;
+}
+
+.account-user-info .ant-avatar {
+    width: 65px !important;
+    height: 65px !important;
+}
+
+.BoxInfo {
+    padding: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-user-details {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.account-user-name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #ababab;
+}
+
+.account-user-message {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+}
+
+.btnaccount {
+    background-image: linear-gradient(15deg, #6c9274, #77a682, #8bc094) !important;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 17px 0px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.additional-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.custom-iconbellAccount {
+    width: 27px;
+    height: 27px;
+    padding: 0px;
+}
+
+.titleaccount {
+    font-size: 15px;
+    color: #333333;
+    font-family: var(--myriada-bold);
+}
+
+.ant-drawer .ant-drawer-body {
+    padding: 10px 24px;
+}
+
+
+.titleaccountadresse {
+    font-size: 14px;
+    color: #333333;
+    font-family: var(--myriada-bold);
+    text-align: center;
+}
+
+.BoxInfo .ant-divider {
+    margin: 5px 0;
+}
+
+.ant-btn-link {
+    color: #333;
+}
+
+.ant-btn-link:not(:disabled):not(.ant-btn-disabled):active {
+    color: #678e70;
+}
+
+.ant-btn-link:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #678e70;
+    background: transparent;
+}
+
+.custom-iconAccount {
+    width: 25px;
+    height: 25px;
+}
+
+.textevert {
+    color: #77a582;
+    padding: 10px;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+    color: #77a582;
+    border-color: #77a582;
+    background: #ffffff;
+}
+
+.ant-btn-link {
+    color: #77a582;
+}
+
+.ant-btn-link:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #77a582;
+    background: transparent;
+}
+
+.ant-btn-link:not(:disabled):not(.ant-btn-disabled):active {
+    color: #77a582;
+}

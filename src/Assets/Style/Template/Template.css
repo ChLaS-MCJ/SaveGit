@@ -1,0 +1,36 @@
+#root {
+    max-width: 1440px;
+    min-width: 280px;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Pour masquer la barre de défilement, tout en permettant le défilement */
+body {
+    overflow-y: scroll;
+    /* Active le défilement vertical */
+    -webkit-overflow-scrolling: touch;
+    /* Scroll fluide pour iOS */
+}
+
+/* Cible spécifiquement les petits écrans */
+@media (max-width: 768px) {
+    .layout {
+        overflow-y: auto;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Désactiver la barre de défilement */
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}

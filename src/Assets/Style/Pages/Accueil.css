@@ -1,0 +1,181 @@
+.accueil-main {
+    padding: 25px 5px 20px 5px;
+    text-align: start;
+    font-family: var(--myriada-bold);
+}
+
+.accueil-main h2 {
+    font-size: 18px;
+    color: #333333;
+    font-family: var(--myriada-bold);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+    width: 90%;
+    margin: auto;
+    line-height: 25px;
+}
+
+.bacs-text {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.icon-container {
+    display: inline-flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.bac-icon {
+    width: 17px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.accueil-main .ligneverte {
+    height: 1px;
+    width: 6rem;
+    background-color: var(--vert-clair);
+    display: flex;
+    margin-bottom: 2rem;
+    margin-left: 17px;
+}
+
+/* Cible les iPad en orientation portrait et landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .accueil-main .ligneverte {
+        display: none;
+    }
+}
+
+
+.accueil-text {
+    font-size: 15px;
+    color: #77a682;
+    font-family: var(--myriada-bold);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.accueil-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    border-top: none;
+    width: 92%;
+    margin: auto;
+}
+
+.accueil-list .ant-list-item {
+    padding: 2px 0;
+    border-bottom: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--gris-foncer);
+}
+
+.accueil-list .ant-list-item:last-child {
+    border-bottom: none;
+}
+
+.pagination-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.pagination-dots .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #d7e4da;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.pagination-dots .dot.active {
+    background-image: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+    width: 14px;
+    height: 8px;
+    border-radius: 38%;
+}
+
+.accueil-button {
+    background-image: linear-gradient(15deg, #6c9274, #77a682, #8bc094) !important;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 6em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #ffffff;
+    background-image: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+}
+
+.ant-modal-mask {
+    backdrop-filter: blur(2px) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.ant-modal-root .ant-modal-centered .ant-modal {
+    width: 70% !important;
+    max-width: 500px;
+    margin: auto;
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):active {
+    color: #fff;
+    background: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+}
+
+.consultexte {
+    padding: 10px 0;
+    border-bottom: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--gris-foncer);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    margin: auto;
+    font-size: 15px;
+    color: #77a682;
+    font-family: var(--myriada-bold);
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    display: block;
+    width: 90%;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.btnaccmodal {
+    padding: 0;
+}

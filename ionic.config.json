@@ -1,0 +1,7 @@
+{
+    "name": "SortirMaPoubelle",
+    "integrations": {
+        "capacitor": {}
+    },
+    "type": "react"
+}

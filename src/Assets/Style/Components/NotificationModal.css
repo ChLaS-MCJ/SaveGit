@@ -1,0 +1,93 @@
+.custom-collect-modal-notif .ant-modal-content {
+    padding: 15px 0 !important;
+}
+
+.custom-collect-modal-notif .ant-modal-title{
+    padding-left: 10px;
+}
+
+
+.collect-headerModal .collect-categoryModal {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Conteneur principal de chaque collecte */
+.collect-itemModal {
+    position: relative;
+    background-color: #6ea17b;
+    border-radius: 0px 15px 15px 0;
+    padding: 5px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 10px 0px;
+}
+
+/* Informations de collecte à gauche */
+.collect-infoModal {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1 1;
+    padding: 15px 5px;
+}
+
+.collect-categoryModal {
+    color: var(--gris-clair);
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* Détails de la collecte */
+.collect-detailsModal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.collect-attributesModal {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: #e4eae7;
+    margin-top: 5px;
+}
+
+/* Ajustement pour les mois organiques */
+.textpmonthModal {
+    font-size: 14px;
+    color: #e4eae7;
+}
+
+/* Icône de la poubelle à droite, sans position absolue */
+.collect-icon {
+    flex-shrink: 0;
+    background-color: #e4eae7;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Couleur légèrement différente si organique */
+.collect-icon-organique {
+    background-color: #dce8dc;
+}
+
+.collect-dayModal,
+.collect-frequencyModal {
+    background-color: #e4eae7;
+    color: #6ea17b;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    text-transform: capitalize;
+}

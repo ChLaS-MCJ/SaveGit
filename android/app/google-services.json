@@ -1,0 +1,92 @@
+{
+  "project_info": {
+    "project_number": "927215357855",
+    "project_id": "sortirmapoubelle-b7a5d",
+    "storage_bucket": "sortirmapoubelle-b7a5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927215357855:android:44cc70921c067dd6b437aa",
+        "android_client_info": {
+          "package_name": "Appli.SortirMaPoubelle.fr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927215357855-c492jdr8kkfgadp4uft0ijgae28lmh8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxoqfD_fr4BOStPAuTYzo3MqduAKdekp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927215357855-c492jdr8kkfgadp4uft0ijgae28lmh8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927215357855-qhi4gr60faskqqfshb7csis68k8lhndl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Appli.SortirMaPoubelle.fr",
+                "app_store_id": "6738512786"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927215357855:android:e79f62809271304cb437aa",
+        "android_client_info": {
+          "package_name": "com.applitwosortapoubelle.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927215357855-2dpvv8jbea0h2lacb8a4j1i6f0cml6je.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.applitwosortapoubelle.app",
+            "certificate_hash": "0192f813cd87c7b7a80c10a863b489fc01f7b3da"
+          }
+        },
+        {
+          "client_id": "927215357855-c492jdr8kkfgadp4uft0ijgae28lmh8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxoqfD_fr4BOStPAuTYzo3MqduAKdekp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927215357855-c492jdr8kkfgadp4uft0ijgae28lmh8t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "927215357855-qhi4gr60faskqqfshb7csis68k8lhndl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "Appli.SortirMaPoubelle.fr",
+                "app_store_id": "6738512786"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

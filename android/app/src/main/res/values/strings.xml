@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Sors ta poubelle</string>
+    <string name="title_activity_main">Sors ta poubelle</string>
+    <string name="package_name">com.quandsortirpb.app</string>
+    <string name="custom_url_scheme">com.quandsortirpb.app</string>
+    <string name="server_client_id">927215357855-rn3pp58ijpq63vbdmaarks8l6fkkcsku.apps.googleusercontent.com</string>
+</resources>

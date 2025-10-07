@@ -1,0 +1,31 @@
+/* Header.css */
+
+.header {
+    background-color: #98bfa1;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.logo {
+    height: 80px;
+    padding-bottom: 5px;
+}
+
+.title {
+    color: #fff !important;
+    font-family: var(--myriada-bold);
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    display: block;
+    width: 100%;
+    background-color: var(--vert-clair);
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 1px 0;
+}

@@ -1,0 +1,26 @@
+/*--------------Utils-----------------*/
+@import './Utils/Normalizer.css';
+@import './Utils/Variables.css';
+@import './Utils/Fonts.css';
+
+/*--------------Template-----------------*/
+@import './Template/Template.css';
+
+/*--------------Layout-----------------*/
+@import './Layout/Header.css';
+@import './Layout/MainLayout.css';
+@import './Layout/Footer.css';
+
+/*--------------Pages-----------------*/
+@import './Pages/Accueil.css';
+@import './Pages/Notfound.css';
+@import './Pages/ConditionGeneral.css';
+@import './Pages/Search.css';
+@import './Pages/Account.css';
+/*--------------Components-----------------*/
+@import './Components/GoogleSign.css';
+@import './Components/ModalSuccess.css';
+@import './Components/SearchBar.css';
+@import './Components/WasteCategory.css';
+@import './Components/DisplaySearch.css';
+@import './Components/NotificationModal.css';

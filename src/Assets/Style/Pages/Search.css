@@ -1,0 +1,78 @@
+.search-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-details {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.user-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ababab;
+}
+
+.user-message {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.custom-iconbell {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+
+}
+
+.notification-iconbell {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.messagenotif {
+    font-size: 12px;
+    color: #838282;
+    padding-bottom: 20px;
+}
+
+.ant-switch.ant-switch-checked {
+    background: var(--vert-clair);
+}
+
+.ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+    background: var(--vert-clair);
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):hover {
+    color: #fff;
+    background: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+}
+
+.ant-btn-primary:not(:disabled):not(.ant-btn-disabled):active {
+    color: #fff;
+    background: linear-gradient(15deg, #6c9274, #77a682, #8bc094);
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+    color: var(--vert-clair);
+    border-color: var(--vert-clair);
+    background: #ffffff;
+}
+
+.ant-btn-default:not(:disabled):not(.ant-btn-disabled):active {
+    color: var(--vert-clair);
+    border-color: var(--vert-clair);
+    background: #ffffff;
+}

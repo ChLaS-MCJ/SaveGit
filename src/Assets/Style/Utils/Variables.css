@@ -1,0 +1,13 @@
+:root {
+    --vert-clair: #77a582;
+    --grid-noir: #333333;
+    --gris-clair: #f7f7f7;
+    --gris-foncer: #838282;
+    --vert-pale: #84a897;
+
+    /* Déclaration des variables pour chaque style de la police MyriadArabic */
+    --myriada-regular: 'MyriadArabic', sans-serif;
+    --myriada-italic: 'MyriadArabic Italic', sans-serif;
+    --myriada-bold: 'MyriadArabic Bold', sans-serif;
+    --myriada-bold-italic: 'MyriadArabic Bold Italic', sans-serif;
+}

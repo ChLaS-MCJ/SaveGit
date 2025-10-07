@@ -1,0 +1,173 @@
+.collect-results {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.collect-item {
+    position: relative;
+    background-color: #6ea17b;
+    border-radius: 0px 15px 15px 0;
+    padding: 10px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0;
+
+}
+
+.collect-info {
+    padding-left: 35px;
+}
+
+.collect-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collect-icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: -20px;
+    top: 25%;
+    background-color: #e4eae7;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.collect-icon-organique {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: -20px;
+    top: 30%;
+    background-color: #e4eae7;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+
+.collect-category {
+    color: var(--gris-clair);
+    font-size: 26px;
+    margin: 0;
+}
+
+.collect-options-btn {
+    background: none;
+    border: none;
+    color: var(--gris-clair);
+    font-family: var(--myriada);
+    font-size: 24px;
+    cursor: pointer;
+
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+
+.collect-details {
+    margin-top: 8px;
+}
+
+.collect-attributes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.collect-day,
+.collect-frequency {
+    background-color: #e4eae7;
+    color: #6ea17b;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.textpmonth {
+    color: var(--gris-clair);
+    font-size: 18px;
+}
+
+.texteinfosignalement {
+    margin: 10px 1px 10px 0;
+}
+
+.modalsignalement .ant-select {
+    height: 35px;
+}
+
+.modalsignalement .ant-select-selector {
+    border-radius: 8px !important;
+}
+
+.gestionplante {
+    color: var(--vert-clair);
+    font-size: 20px;
+    font-family: var(--myriada);
+}
+
+.Add-buttoncollecte {
+    margin-top: 20px;
+    background-image: linear-gradient(15deg, #6c9274, #77a682, #8bc094) !important;
+}
+
+.selectadd {
+    height: 45px !important;
+}
+
+.selectaddbutton {
+    border-radius: 25px !important;
+    width: 60% !important;
+    margin: auto !important;
+}
+
+.ant-select-dropdown .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: #a5d2ac !important;
+}
+
+.ant-picker-outlined:focus-within {
+    border-color: var(--vert-clair);
+    box-shadow: 0 0 0 2px rgba(103, 150, 106, 0.05);
+    outline: 0;
+    background-color: #ffffff;
+}
+
+.ant-picker-outlined:hover {
+    border-color: var(--vert-clair);
+    background-color: #ffffff;
+}
+
+
+
+.ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected:not(.ant-picker-cell-disabled) .ant-picker-cell-inner {
+    color: #fff;
+    background: var(--vert-clair);
+}
+
+.ant-picker-dropdown .ant-picker-header-view>button:hover {
+    color: var(--vert-clair);
+}
+
+.ant-spin .ant-spin-dot-holder {
+    color: var(--vert-clair);
+}
+
+.notification-iconinfo{
+    margin-left: 10px;
+}
+
+.notification-iconinfo span {
+    cursor: pointer;
+    font-size: 18px;
+    color: #77a582;
+}

@@ -1,0 +1,56 @@
+.container-condition {
+    padding: 20px;
+    background-color: var(--gris-clair);
+}
+
+.condition-card {
+    margin: 20px;
+    border-radius: 12px;
+}
+
+.condition-card h2 {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px 0;
+    font-family: var(--font-simplified-arabic);
+}
+
+.condition-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    font-family: var(--font-simplified-arabic);
+}
+
+.condition-card ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    font-family: var(--font-simplified-arabic);
+}
+
+.titletop {
+    font-family: var(--font-simplified-arabic);
+    font-size: 1.4em;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 2px var(--vert-font) solid;
+}
+
+.link-container {
+    margin-top: 10px;
+
+}
+
+.more-link {
+    background-color: var(--vert-font);
+    padding: 8px 35px 8px 35px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
